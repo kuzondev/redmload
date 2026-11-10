@@ -1,0 +1,17 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-src 'self'; object-src 'none'; base-uri 'self'
+/admin/*
+  X-Frame-Options: SAMEORIGIN
+  Cache-Control: no-store
+/app/*
+  Cache-Control: public, max-age=31536000, immutable
+/default-config.json
+  Cache-Control: no-cache
+/
+  Cache-Control: no-store
+/index.html
+  Cache-Control: no-store
+/assets/wintermere-music.mp3
+  Cache-Control: no-cache
